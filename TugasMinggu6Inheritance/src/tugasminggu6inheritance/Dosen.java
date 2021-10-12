@@ -12,11 +12,11 @@ package tugasminggu6inheritance;
 public class Dosen extends Pegawai {
 
     public int jumlahSKS;
-    public int TARIF_SKS;
+    public int Tarif_SKS;
 
-    Dosen(int TarifSKS, String nip, String nama, String alamat) {
+    Dosen(int Tarif_SKS, String nip, String nama, String alamat) {
         super(nip, nama, alamat);
-        this.TARIF_SKS = TarifSKS;
+        this.Tarif_SKS = Tarif_SKS;
     }
 
     public void setJumlahSKS(int jumlahSKS) {
@@ -24,7 +24,7 @@ public class Dosen extends Pegawai {
     }
 
     public int getGaji() {
-        int gaji = jumlahSKS * TARIF_SKS;
+        int gaji = jumlahSKS * Tarif_SKS;
         System.out.println("Gaji Dosen : " + gaji);
         return gaji;
     }
