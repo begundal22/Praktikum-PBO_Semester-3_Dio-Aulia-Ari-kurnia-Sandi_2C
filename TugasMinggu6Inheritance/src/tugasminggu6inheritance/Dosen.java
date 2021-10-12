@@ -11,8 +11,8 @@ package tugasminggu6inheritance;
  */
 public class Dosen extends Pegawai {
 
-    protected int jumlahSKS;
-    protected int TARIF_SKS;
+    public int jumlahSKS;
+    public int TARIF_SKS;
 
     Dosen(int TarifSKS, String nip, String nama, String alamat) {
         super(nip, nama, alamat);
